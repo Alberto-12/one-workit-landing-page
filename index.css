@@ -226,6 +226,40 @@ footer {
 
 
 
-@media (max-width: 768px) {
-    /* Mobile styles */
+@media (min-width: 768px) {
+    .header-heading {
+        width: 75%;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .image-hero {
+        width: 479px;
+        top: -30px;
+    }
+
+    .header-features-container {
+       
+        background-size: 100% 35%, 100% 100%;
+       
+    }
+
+    article {
+    
+    }
+
+    
+h2 {
+    text-align: start;
+}
+
+p {
+    text-align: start;
+}
+
+    
+}
+
+@media (min-width: 1024px) {
+
 }
